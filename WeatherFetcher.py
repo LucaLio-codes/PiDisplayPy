@@ -4,7 +4,7 @@ from datetime import datetime, timezone, timedelta
 import pathlib
 
 CITY = 'Darmstadt'
-KEY = '381eac8a97bebb8bce2b2a392d7b8f2f'
+KEY = ''
 PROJECT_PATH = str(pathlib.Path(__file__).parent)
 CALL = f'https://api.openweathermap.org/data/2.5/weather?q={CITY}&appid={KEY}'
 
